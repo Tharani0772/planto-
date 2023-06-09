@@ -1,0 +1,1093 @@
+
+<html lang="en">
+
+ 
+
+<head>
+
+ 
+
+<meta charset="UTF-8">
+
+ 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Herbicide calculator">
+ <meta name="keywords" content="Pendimethalin, Herbicide, calculator, calculation,Learnagri,Learn-Agri">
+  <meta name="author" content="Surya kumar">
+ 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+
+<title>  Herbicide </title>
+
+<style type="text/css" media="all">
+
+ 
+
+  img{
+
+ 
+
+border-radius:20px 10px 20px 100px;
+
+ 
+  }
+
+  body{
+
+    background-color: #9bee9b;
+
+ 
+
+    max-width: 1900px;
+
+    overflow-x: hidden;
+
+     padding: 0px;
+     left: 0px;
+
+  }
+
+  #btn{
+
+    border:1px solid transparent;
+
+    border-radius:5px;
+
+    color: white;
+
+    width: 110px;
+
+    height:40px;
+
+    line-height: 50px;
+
+ 
+
+   
+
+   
+
+    
+
+  }
+
+    #btn1{
+
+    border:1px solid white;
+
+    border-radius:5px;
+
+    color: white;
+
+    width:100px;
+
+  
+
+  }
+
+  #number{
+
+    border:10px solid white;
+
+    border-radius:5px;
+
+  }
+
+  .img{
+
+    border-radius: 2000px;
+
+ 
+
+    animation:new;
+
+    animation-duration: 5s;
+
+    animation-name:infinite;
+
+  }
+
+  @keyframes new {
+
+    from{
+
+    
+
+    }
+
+  }
+
+  .sticky{
+
+    top:0px;
+
+    position: sticky;
+
+    max-width: 1500px;
+
+    overflow-x: hidden;
+
+   
+
+  }
+
+table{
+
+ 
+  background-color: green;
+  border-radius: 30px;
+ 
+  
+
+ 
+
+  
+  
+  
+  
+
+}
+
+.numb{
+   border: 10px solid white;
+   border-radius: 100px;
+ }
+
+
+table:hover{
+
+ box-shadow:5px 0px 10px white;
+
+  background-color: green;
+
+animation: hi;
+animation-duration: 0.01s;
+ animation-iteration-count: 20;
+
+
+
+transition: 3s;
+
+}
+
+@keyframes hi{
+  from{
+    transform: translatex(4px);
+  }
+  to{
+    transform: translatex(-4px);
+  }
+}
+
+#true{
+  animation: im;
+  
+animation-iteration-count: 1;
+  animation-duration:2s;
+}
+
+@keyframes im{
+from{
+  
+  width:300px;
+ height:20px;
+  transition:width 2s height 2s;
+  
+  
+}
+  t0{
+  
+  width:350px;
+  height:200px;
+  transition:width 2s height 2s;
+  
+  
+}
+  
+}
+.im:hover{
+  
+ box-shadow:20px 20px 50px white;
+
+ transition:width 1s height 1s;
+}
+#home{
+  padding: 0px 100px 0px 5px;
+  background-color:#085b08;
+  width:20px;
+  line-height:40px;
+  position: fixed;
+  color: white;
+ 
+ 
+ 
+}
+
+.curveRadius{
+  background-image: linear-gradient(orange,#008d00);
+  background-color: green;
+  border-radius: 0px 200px 0px 200px;
+}
+.fot1{
+  
+ height: 1000px;
+  background-color: red;
+  border-radius:0px 2px 3000px 0px;
+  
+}
+.fot2{
+  
+ height: 980px;
+  background-image: linear-gradient(green,yellow);
+  border-radius:0px 0px 1000px 0px;
+  
+}
+.fot3{
+  
+ height: 960px;
+  background-image: linear-gradient(green,blue);
+  border-radius:0px 0px 1000px 0px;
+  
+}
+.fot4{
+  
+ height: 940px;
+  background-image: linear-gradient(#5df75d,green);
+  border-radius:0px 0px 1000px 0px;
+  
+}
+#pro{
+  border-radius: 20px;
+}
+#print{
+  
+  background-color: white;
+  margin: auto ;
+  width: 200px;
+  height: 100px;
+  border-radius:200px;
+  align-content: center;
+  border: 1px solid white;
+  background-image: linear-gradient(green);
+}
+.cls{
+        border-radius:500px;
+        
+        background-color:#FFC0CB;
+        
+        width: 350px;
+        height:200px ;
+   
+       }
+       .cls1{
+        border-radius:20000px;
+        
+        background-color:red;
+        
+        width: 200px;
+        height:200px ;
+        padding: 20px 0px 0px 0px;
+   
+       }
+       
+
+            .real{
+border-radius:50px;
+        
+        
+      
+        max-width:200px;
+        height:200px ;
+        padding: 20px 0px 0px 0px;
+        background-image: linear-gradient( #00acee,#00acee);
+
+   
+       }
+
+      
+          .ahov{
+      text-decoration: none;
+      color:rgb(99,232,99) ;
+    }
+        .hov{
+      border-radius: 20px;
+     
+    }
+    
+#span{
+
+  padding: 0px 0px 70px 0px;
+  font-weight: bold;
+
+ border-radius:0px 00px 00px 20px;
+  
+}
+.close{
+  border-radius: 10px;
+  border:2px solid #00ddff;
+  color: white;
+  background-color: #00ddff;
+}
+.offcanvas{
+  color:green;
+  font-weight: bold;
+}
+.otherherbi{
+background-color: #87e687;
+ 
+
+}
+#linear{
+  background-image: linear-gradient(to right,orange,white);
+}
+.trans{
+  height:25px;
+  overflow: hidden;
+}
+.sty{
+  background-color:green;
+}
+</style>
+ <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+    <b> <button class="accordion-button collapsed text-success" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+   <b>   Know , When it should be sprayed?</b> 
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-success text-white">It Should be sprayed on 15-20 Days After Sowing.</div>
+    </div>
+  </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+ 
+
+
+
+
+  <script>
+    // Function to share on WhatsApp
+    function shareOnWhatsApp() {
+      var shareUrl = "whatsapp://send?text=" + encodeURIComponent("Check this out from PlantoPlus! " + window.location.href);
+      window.location.href = shareUrl;
+    }
+  </script>
+
+
+
+</div>
+<body align="center" style="background-color:#8ced8c" onload="funload()">
+
+<div class="sticky"style="background-color: hsla(120, 100%, 25%, 0.3);color:black;">
+<div id="hi">
+<img class="img-fluid" src="pp.png" alt="" />
+</div>
+    <center id="loadercont"> <div class="spinner-border text-success " role="status">
+      
+  <span class="visually-hidden">Loading...</span>
+  
+  
+</div>
+
+
+
+</center>
+
+     <br />
+          <a href="#top">  <span class="btn btn-success" >  
+          <span class="notranslate">language</span>
+          
+           /மொழி<br /></a>
+<br /> 
+
+  </div>
+
+
+  </div>
+
+          <!-- WhatsApp Share Button --> 
+ 
+
+<b>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    
+  <div class="container-fluid">
+     <p class="">
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">
+  Share
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Share Through</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!DOCTYPE html>
+<html>
+<head>
+  <title>Share Options</title>
+</head>
+<body>
+  <button onclick="shareOnWhatsApp()"class="btn btn-success">Share on WhatsApp</button>  
+  
+  <br /> <br />
+  
+ 
+  <button onclick="shareOnTwitter()"  class="btn btn-info">Share on Twitter</button>
+  
+  <br /> <br />
+  <button onclick="shareOnFacebook()" class="btn btn-primary">Share on Facebook</button> <br /> <br />
+  <button onclick="shareOnLinkedIn()"class="btn btn-secondary">Share on LinkedIn</button>
+
+  <script>
+    function shareOnWhatsApp() {
+      var url = encodeURIComponent(window.location.href);
+      window.open("https://api.whatsapp.com/send?text=" + url, "_blank");
+    }
+
+    function shareOnTwitter() {
+      var text = encodeURIComponent("Check out this link: " + window.location.href);
+      window.open("https://twitter.com/intent/tweet?text=" + text, "_blank");
+    }
+
+    function shareOnFacebook() {
+      var url = encodeURIComponent(window.location.href);
+      window.open("https://www.facebook.com/sharer/sharer.php?u=" + url, "_blank");
+    }
+
+    function shareOnLinkedIn() {
+      var url = encodeURIComponent(window.location.href);
+      var title = encodeURIComponent(document.title);
+      window.open("https://www.linkedin.com/shareArticle?url=" + url + "&title=" + title, "_blank");
+    }
+  </script>
+</body>
+</html>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+ </p>
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      
+      
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+    
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="Index.html"> <h3>-Home-</h3></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Herbicide.html"> <h3 class="">-Herbicide Slection-</h3></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Postemergence.html"><h3 class="">-Crops-</h3></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</b>
+ 
+
+<div class="curveRadius">
+  
+
+<div class="container">
+
+   <div class="row">
+     
+
+     <div class="col-sm">
+
+       <img src="Post-emergence/ts.webp" alt="Quizalpop-Ethyl" width="300px" height="300px" id="true" >
+
+     
+
+     </div>
+
+   
+
+     
+
+   </div>
+
+</div>
+
+ 
+
+
+
+<a href="#hi"> 
+ <div >
+   
+
+<p id="home" style="" > <b class="btn btn" data-toggle="modal" data-target="#exampleModal" style="color:white;"> <b>TARGET CROP</b></b>
+<b></b>
+
+
+</div>
+</p>
+   </a>
+
+ 
+
+<br />
+
+ <br /> <br />
+
+<h1><label for="">CHEMICAL CONTENT : QUIZALPOP-ETHYL 5% EC </label></h1>
+
+</BR>
+
+<lable style="font-size:20px">Enter the plot size in acre : </lable>
+
+
+
+<br><br><br>
+
+ 
+<center>
+
+  
+
+  <table cellpadding="30px" >
+
+ 
+
+    <tr>
+
+      <td>
+<div >
+  
+
+        <input type="number"  class="numb" name="" id="number" required="" placeholder="enter the plot size in acre " style="font-size:20px">
+
+  
+   </div>
+
+      </td>
+
+    <tr>
+
+      <td id="a">
+
+    <center>    <a  style="color:white;"><p  id="btn" style="background-color:green;" > <button type=""class="btn btn-light">SUBMIT</button>  </P></a> </center>
+      <b>Note: Double click the submit button </b> 
+
+      </td>
+
+    </tr>
+
+    
+
+    </tr>
+
+    </table>
+
+    
+</div>
+ 
+
+</center>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<br id="print1"> <br>
+
+ 
+
+<br />
+
+<span > <b>The quantity of the chemical required for an acre is </span></b>
+
+<br />
+
+<br />
+
+<b > <button id="print" ><p > <br />No Data  <br /> </p ></button></b>
+
+ 
+
+<br />
+
+<br />
+
+ </div>
+
+
+<div style="background-color:green;color:white;">
+  <br />
+
+ 
+
+<u><p><b>DISCLAIMER <br /></b></p></u>
+
+ 
+
+<span> This is a computer generated copy . The chemical recommendation and the quantity of the chemical that is recommended for a particular crop may vary . So please be aware of this, And always read the leaflet of the particular chemical before application.Neither the content writer of the site nor the Developer , are  not responsible  for any mishappen.</span>
+
+ 
+
+<br />
+
+<br />
+
+  
+<button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Other Herbicide</button>
+
+<div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel"></h5>  </br> </br></br></br>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body otherherbi">
+   <center style="color:red;">
+         <p> Quizalofop-Ethyl 10% EC </p>
+    <img src="Post-emergence/sakura.png" alt=""  class="img-fluid" width="100px"  loop autoplay/>
+
+  </center>
+  <br />
+  
+  <p style="color:red;">SAKURA - 150-180ml/acre</p>
+ <br />
+ 
+  <div style="color:red;">
+    
+ 
+ <br />
+ 
+ </div> <br /> <br />
+ If you know about any other pesticides related to this crop  please tell us! we are happy to hear from you.
+ <br />
+   <a class="" href="https://forms.gle/F9RQADP6Bcu42DmD8">click here</a>
+ 
+  </div>
+  
+
+</div>
+  </div>
+</div>
+
+
+
+
+ 
+
+<!--<input type="button" value="PRINT" onclick="window.print(),funTrans()" id="btn1" style="background-color:green;" >
+-->
+ 
+
+
+
+<div class="sty">
+
+ 
+
+  
+
+ 
+
+  <div class="container" style="background-color:#2ab92a;">
+    <br />
+    <br />
+
+ <center style="color:white;"> THE FOLLOWING PRECAUTIONS SHOULD BE FOLLOWED BY THE FARMER DURING PESTICIDE APPLICATION</center>
+<br />
+<br />
+<br />
+<div class="row">
+
+ 
+
+    <div class=" col-md col-xl-4" >
+
+<img src="Banner/1.jpg" alt="img1"  width="350px" height="200px" class="im">
+
+ <br /> <br /> 
+
+    </div>
+
+ 
+
+
+    <div class="col-md col-xl-4" >
+
+  
+      <img src="Banner/2.png" alt="img1"  width="350px" height="200px" class="im">
+
+
+       
+<br /><br />
+          </div>
+
+ 
+
+      
+          <div class=" col-md col-xl-12" >
+
+            <img src="Banner/3.jpg" alt="img1"  width="350px" height="200px" class="im">
+
+             
+<br /><br />
+                </div>
+
+      <div class=" col-md col-xl-12" >
+
+            <img src="Banner/4.jpg" alt="img1"  width="350px" height="200px" class="im">
+
+             
+<br /><br />
+                </div>
+                
+                 </div>
+
+      <div class=" col-md col-xl-12" >
+
+         
+   <img src="Banner/5.jpg" alt="img1"  width="350px" height="200px" class="im">
+             
+<br /><br />
+                </div>      
+           
+
+</div> 
+
+ 
+     <br />
+                <br />
+                <br />
+                <br />
+ 
+
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+  </div>
+  <!--<br /><br />
+  
+  <b>All rights reserved </b>
+  <br />
+<b>   ©️ LEARN-AGRI </b>
+ <br /><br />-->
+ 
+</div>
+ 
+ <footer class="fot">
+   
+   <div class="fot1">
+     <div class="fot2">
+       <div class="fot3">
+         <div class="fot4">
+     <b><p  class="h3"style="font-size:30px;">Follow us on ; </p>    </b>  
+             <br /> 
+<br />
+
+             </span>
+             <div class="container">
+               <div class="row">
+                 <div class="col-sm col-xxl-6 ">
+                   
+    <div class="cls">
+      <br /><br />
+       <a href="https://instagram.com/plantoplus?igshid=NGExMmI2YTkyZg=="> <img class="hov" src="Social/insta.png" alt="" height="100px" width="100px"/> </a> 
+
+         <br /><br /><br />
+         </div>
+                 </div>
+                              <br /><br /><br />
+                 
+                    <div class="col-sm col-xxl-6 ">
+           <br /><br /><br />
+            <div class="cls1">
+              
+<br /><br />
+      <a href="http://example.com"><img class="hov" src="Social/yt.jpg" alt="" height="70px" width="80px"/> </a>   
+
+         </a></b>
+       
+   </div>
+                   
+                   
+                 </div>
+
+               </div>
+               
+                                <br /><br /><br />
+              <div class="real">
+                
+           <div class="row">
+                 <div class="col-sm col-xxl-6 cls2"
+              
+                 >
+                   
+              <br /><br />
+     <a href="http://example.com"><img class="hov" src="Social/tw.png" alt="" height="70px" width="70px"/> </a>    
+         </div>   
+
+         
+
+       
+                   
+                   
+                 </div>
+         
+      
+         <br /><br /><br />
+                 </div>
+               </div>
+             </div>
+         </div>
+         
+       </div>
+       
+     </div>
+     
+   </div>
+   
+   
+<p id="top"> 
+    <div id="google_translate_element" class="trans"></div>  
+</div>
+</p>
+ </footer>
+ <br />
+ <br />
+ <br />
+ <div id="span">
+   
+
+          <span style="font-size:20px;" id="" class="display-1">
+                    <br /><br />
+                                 <b>All rights reserved </b>
+                       <br />          <br />
+           <b>©️-Plantoplus </b>
+
+         </span> </div>
+</body >
+
+ 
+
+<!-- Function which will translate the web page using Google Translator -->
+
+<script type="text/javascript">  
+    function googleTranslateElementInit() {  
+        new google.translate.TranslateElement(  
+            {
+                pageLanguage: 'en',
+                includedLanguages: 'ta,hi,ml,te', // Add 'hi' for Hindi, 'ml' for Malayalam, 'te' for Telugu
+            },  
+            'google_translate_element'  
+        );  
+    }  
+</script>  
+
+<!-- Script code for Google Translate API -->  
+<script type="text/javascript"   
+src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">  
+</script>  
+
+ 
+
+ 
+
+<script>
+
+ 
+
+ 
+
+ 
+
+function funTrans(){
+
+  document.getElementById("btn1").style.backgroundColor="transparent";
+
+ 
+
+}
+
+ 
+
+ 
+
+// logic input from the user//
+
+ 
+
+document.getElementById("btn").onclick = function funRef(){
+
+ 
+
+ 
+
+  document.getElementById("btn").style.backgroundColor="transparent";
+
+  document.getElementById("btn").style.color="white";
+
+ 
+var val = document.getElementById("number").value;
+if( val==0){
+  document.getElementById("print").innerHTML= "Error!!!";
+  alert('Please enter a valid number')
+  
+}
+else{
+  
+var num = document.getElementById("number").value*250;
+
+ 
+
+ 
+
+ 
+
+document.getElementById("print").innerHTML= num + ' ml /'+ val + 'acre';}
+
+ 
+
+
+}
+
+ 
+
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<body>
+  
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	       <center> <h5 class="modal-title" id="exampleModalLabel">HERBICIDE </h5>
+	       
+	       </center>
+
+
+	      
+	    
+	       <br /> 
+	       	        <p type="button"data-dismiss="modal"> ❌</p>
+	        
+	       
+	      </div>
+	      
+
+	      <div class="modal-body">
+	        <img src="pro.png" width="300px" alt="Image" id="pro">
+	        <br />
+	        <p > <h6>This chemical act as a <b> Pre-emergence </b>  Herbicide.Which will controls the grasses
+<br />
+<br />
+Target crop : 
+<b></b> <br /> <br />
+	        <img src="gourds.png" width="300px" alt="gourds" id="pro">
+	        <br />
+	        <br /> <br>
+	        
+	
+	        <br />
+	        <br />
+	        <hr />
+	        And other specified crop that are mentioned on the leaflet
+	        </b> <br /> <br />
+	      <!--  <img src="sc.jpg" width="300px" alt="Image" id="pro"> <br /> <br />
+ Sugarcane-->
+</h6></p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<script type="text/javascript" charset="utf-8">
+	  function funload(){
+	    document.getElementById('loadercont')
+	
+	
+	.innerHTML=""  }
+	</script>
+
+	<!-- jQuery and Bootstrap JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+ 
+

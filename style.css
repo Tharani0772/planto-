@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    max-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+
+.wrapper h2{
+    text-align: center;
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+#myBtn {
+    height: 44px;
+    width: 12%;
+    color: aquamarine;
+    background-color: bisque;
+cursor: pointer;
+}
+
+#myBtn:hover{
+    color: blue;
+    background-color: blueviolet ;
+}
+
+
+#myId{
+    width: 87%;
+    font-size: 16px;
+    padding: 11px 20px 12px 40px;
+    border: 1px solid white;
+    margin-bottom: 25px;
+
+}
+
+#myList{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+#myList li a{
+    margin-top: -1px;
+    background-color: aqua;
+   padding: 18px;
+   text-decoration: none;
+   font-size: 12px;
+   color:black ;
+   display: block;
+
+
+}
